@@ -52,6 +52,22 @@ body{
     margin-right: 20px;
     margin-left: 10px;
 }
+@media (max-width:767px){
+    .header_rate  {
+        display: block;
+        text-align: center; 
+    }
+    .header_rate .header p{
+        margin-bottom: 20px;
+    }
+    .header_rate .rate{
+       margin-left: -38px;
+    }
+    .header_rate .rate  div:nth-child(2),
+    .header_rate .rate div:last-child{
+       margin-left: 0px;
+    }
+}
 .buyer{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -92,4 +108,10 @@ body{
 }
 .buyer div p:last-of-type{
     margin-top:20px ;
+}
+
+@media (max-width:767px){
+    .buyer {
+        display: block;
+    }
 }
