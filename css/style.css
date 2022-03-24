@@ -14,9 +14,9 @@ body{
 
 .header_rate{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2,1fr);
     margin: 20px auto;
-    max-width: 65%;
+    max-width: 70%;
 }
 .header_rate .header{
     max-width: 23rem;
@@ -54,11 +54,42 @@ body{
 }
 .buyer{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     margin: 10px auto;
     gap: 20px;
-    max-width: 65%;
+    max-width: 70%;
+    height: fit-content;
 }
 .buyer div{
     background-color:var(--main-color);
+    border-radius: 8px;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    width: 19rem;
+    padding: 30px 20px;
+    line-height: 1.6;
+}
+
+.buyer img{
+    border-radius:50%;
+    width: 40px;
+    float: left;
+    margin-right: 10px;
+    margin-top:-5px;
+}
+.buyer .buyer_two{
+    margin-bottom: -15px;
+    margin-top: 15px;
+}
+.buyer .buyer_three{
+    margin-bottom: -30px;
+    margin-top: 30px;
+}
+
+.buyer div .verify_buyer{
+    color:hsl(333, 80%, 67%);
+}
+.buyer div p:last-of-type{
+    margin-top:20px ;
 }
